@@ -3,7 +3,7 @@
 export default function Home() {
   return (
     <div style={{height:"100vh",display:"flex",justifyContent:"center",alignItems:"center"}}>
-      <h6>Hello i am abhay</h6>
+      <h3><b style={{fontSize:"70px"}}>H</b>ello i am abhay</h3>
     </div>
   );
 }
