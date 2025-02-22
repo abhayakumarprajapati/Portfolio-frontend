@@ -2,13 +2,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #333;
+    /* background: #333; */
     padding: 15px 20px;
+    color: white;
 }
 
-
-.navbar .logo {
-    color: white;
+.logo {
     font-size: 24px;
     font-weight: bold;
 }
@@ -37,7 +36,6 @@
     display: none;
     font-size: 28px;
     cursor: pointer;
-    color: white;
 }
 
 
@@ -56,10 +54,6 @@
 
     .navlinks.active {
         display: flex;
-    }
-
-    .navlinks li {
-        margin: 10px 0;
     }
 
     .hamburger {

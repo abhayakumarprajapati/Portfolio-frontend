@@ -1,0 +1,57 @@
+.tomato {
+    color: tomato;
+}
+
+.white {
+    color: whitesmoke;
+}
+
+.textStyle {
+    font-weight: 700;
+    font-family: cursive;
+}
+
+.mainContainer {
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    /* Stack elements vertically */
+    padding: 0px 40px;
+    /* align-items: center; */
+    /* Center align items */
+    justify-content: center;
+    /* Center vertically */
+    /* text-align: center; */
+    gap: 10px;
+    /* Add space between elements */
+}
+
+.imageContainer {
+    flex: 1;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+/* On mobile, both divs should take full width */
+@media (max-width: 768px) {
+
+    .textContainer {
+        align-items: center;
+        width: 100%;
+        padding: 0px 40px;
+    }
+
+    .imageContainer {
+        width: 100%;
+    }
+}
