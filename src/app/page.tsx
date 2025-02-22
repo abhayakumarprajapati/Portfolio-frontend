@@ -1,5 +1,6 @@
 import Navbar from "./Navbar/page";
 import styles from './styles.module.css'
+import Image from 'next/image';
 
 
 export default function Home() {
@@ -18,7 +19,9 @@ export default function Home() {
             </p>
           </div>
           <div className={styles.imageContainer}>
-            Image
+            <Image src="/images/abhaypic.jpg" alt="Profile Image" width={500} height={300} />
+
+
           </div>
         </div>
       </div>

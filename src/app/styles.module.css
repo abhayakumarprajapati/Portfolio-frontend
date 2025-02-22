@@ -12,7 +12,7 @@
 }
 
 .mainContainer {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-wrap: wrap;
 }
@@ -40,6 +40,10 @@
     justify-content: center;
     text-align: center;
     padding: 20px;
+}
+
+.imageContainer img {
+    border-radius: 20px; /* Adjust for a rounded effect */
 }
 
 /* On mobile, both divs should take full width */
