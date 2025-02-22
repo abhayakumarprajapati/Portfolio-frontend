@@ -46,6 +46,17 @@
     border-radius: 20px; /* Adjust for a rounded effect */
 }
 
+.buttons button{
+    background-color: tomato;
+    color: whitesmoke;
+    font-family: cursive;
+    padding: 6px 20px;
+    border: none;
+    border-radius: 20px;
+    /* display: flex; */
+    /* gap: 10px; */
+}
+
 /* On mobile, both divs should take full width */
 @media (max-width: 768px) {
 

@@ -17,11 +17,13 @@ export default function Home() {
             <p className={`${styles.white} ${styles.textStyle}`}>
               I am a Full stack developer with more than 2 years of experience. My expertise is to create and design websites.
             </p>
+            <div className={styles.buttons}>
+              <button style={{ marginRight: "10px" }}>View Work</button>
+              <button>Hire me</button>
+            </div>
           </div>
           <div className={styles.imageContainer}>
             <Image src="/images/abhaypic.jpg" alt="Profile Image" width={500} height={300} />
-
-
           </div>
         </div>
       </div>
