@@ -1,0 +1,50 @@
+.mainContainer {
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    /* Stack elements vertically */
+    padding: 0px 40px;
+    /* align-items: center; */
+    /* Center align items */
+    justify-content: center;
+    /* Center vertically */
+    /* text-align: center; */
+    gap: 10px;
+    /* Add space between elements */
+}
+
+.imageContainer {
+    flex: 1;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.buttons button {
+    background-color: tomato;
+    color: whitesmoke;
+    font-family: cursive;
+    padding: 6px 20px;
+    border: none;
+    border-radius: 20px;
+    /* display: flex; */
+    /* gap: 10px; */
+}
+
+.graphImg img {
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #54595F70;
+    border-radius: 10px 10px 10px 10px;
+}

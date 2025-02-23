@@ -17,13 +17,19 @@
     display: flex;
 }
 
+.activeLink {
+    /* font-size: 100px; */
+    font-weight:900;
+    color: #f4a261; 
+  }
+
 .navlinks li {
     margin: 0 15px;
 }
 
 .navlinks a {
     text-decoration: none;
-    color: white;
+    /* color: rgb(77, 3, 3); */
     font-size: 18px;
     transition: 0.3s;
 }
