@@ -1,4 +1,3 @@
-import Navbar from "./Navbar/page";
 import styles from './styles.module.css'
 import Image from 'next/image';
 
